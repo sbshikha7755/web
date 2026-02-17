@@ -1,0 +1,58 @@
+/* h1{
+    background-color: blue;
+} */
+
+/* .ram{
+    background: green;
+} */
+
+/* *{
+    background: red;
+    margin: 0;
+    padding: 0;
+} */
+p{
+    background: yellowgreen;
+}
+h4{
+    background: white;
+}
+.box{
+    background: green;
+}
+#abc{
+    background: brown;
+}
+#xyz{
+    background: paleturquoise;
+}
+.pgl{
+    background: purple;
+}
+.pgl:hover{
+    background: yellow;
+}
+.btm{
+    background: aqua;
+}
+.btm:hover{
+    background: silver;
+}
+
+h1,h2,h3,h4{
+    background: grey;
+}
+
+.box ,.cs, .pgl{
+    background-color: brown;
+}
+.yt{
+
+    background: goldenrod;
+}
+.yt:hover{
+
+    background: black;
+}
+
+
