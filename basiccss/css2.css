@@ -1,0 +1,30 @@
+h2{
+
+    background: lightsalmon;
+    font-style: italic;
+    font-size: x-large;
+}
+form{
+
+    background: lightskyblue;
+}
+#id{
+
+    background: lightskyblue;
+}
+h1{
+
+    background: lightcoral;
+}
+pre{
+
+    background: red;
+}
+button{
+
+    background: orange;
+}
+h3{
+
+    background: lightslategray;
+}

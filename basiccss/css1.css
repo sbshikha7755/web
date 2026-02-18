@@ -1,0 +1,34 @@
+h1{
+
+    background: blueviolet;
+}
+ol{
+
+    background: lightpink;
+}
+*{
+
+    background: lightseagreen;
+}
+
+li{
+
+    background: lightpink;
+}
+label{
+
+    background: red;
+}
+.name{
+
+    background: lightgreen;
+}
+h2{
+
+    background-color: blueviolet;
+}
+img{
+
+    width: 200px;
+    height: 100px;
+}

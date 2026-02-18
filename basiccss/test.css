@@ -1,0 +1,35 @@
+h1{
+    background: green;
+    text-align: right;
+    /* font-style: italic; */
+}
+.hello{
+    background: olivedrab;
+    border: 5px solid rgb(78, 8, 8);
+    margin: 0px;
+    padding: 10px;
+}
+/* ol{
+
+    background-color: blueviolet;
+} */
+.abc{
+
+    background-color: brown;
+}
+.xyz{
+
+    background: lightcoral;
+}
+tr{
+
+    background: lightseagreen;
+}
+
+.tv{
+
+    border: 5px solid red;
+}
+.tv :hover{
+border: 5px solid green;
+}
