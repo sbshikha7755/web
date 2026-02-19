@@ -18,13 +18,17 @@ h1{
 }
 pre{
 
-    background: red;
+    background: rgb(193, 115, 115);
 }
 button{
 
-    background: orange;
+    background: #fafafa;
 }
 h3{
 
-    background: lightslategray;
+    background: #8c6a3a;
+}
+img{
+
+    width: 100px;
 }

@@ -1,0 +1,20 @@
+.cl {
+    justify-content: center;
+    background-color: orange ;
+
+}
+
+.st {
+    text-decoration: underline;
+    color: #000;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(127, 92, 49);
+
+}
+.colo{
+    background: rgb(201, 108, 108);
+    width: 500px;
+    height: 200px;
+}
