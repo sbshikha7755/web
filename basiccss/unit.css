@@ -1,0 +1,46 @@
+
+/* .img{
+    width: auto;
+    height: 100px;
+}
+.imgg{
+    width: 400px;
+    height: 600px;
+}
+.prg{
+    width:30%50% ;
+    height: ;
+} */
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.con{
+    background: aqua;
+    /* padding: 0px 0px 10px 10px; */
+    /* margin: 10px; */
+    /* padding-left: 10px; */
+    /* margin-top: 10%; */
+    /* padding: 10%; */
+    border: 2px solid black;
+}
+
+.hell{
+    background: orange;
+    /* margin-top: 10%;
+    padding: 20px; */
+    border: 2px solid red;
+}
+.fom{
+    margin-top: 1rem;
+}
+.abc{
+    background: lightcoral;
+    margin: 100px 100px 0px 0px;
+}
+.yt{
+    background: rgb(128, 37, 37);
+}

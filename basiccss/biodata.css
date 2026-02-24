@@ -1,7 +1,8 @@
 h1{
     background: rgb(224, 141, 153);
+
 }
-#name{
+/* #name{
     background: rgb(93, 93, 166);
 }
 #Marital status{
@@ -12,7 +13,25 @@ select{
 }
 #male{
     background:rgb(93, 93, 166);
-}
+} */
 form{
     background-color: azure;
+}
+.xyz{
+    border: 3px solid rgb(175, 35, 56);
+}
+.tbs{
+    border: 2px solid rgb(175, 35, 56);
+}
+
+.tra{
+    background: rgb(224, 141, 153);
+    
+   
+
+}
+.trb{
+    background: red;
+    font-style: italic;
+    font-size: 10px;
 }
