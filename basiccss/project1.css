@@ -1,0 +1,18 @@
+body{
+    background: rgb(197, 191, 191);
+    font-style: italic;
+}
+
+h1{
+    
+    text-align: center;
+    
+}
+ .header{
+    background: rgb(160, 80, 80); 
+    text-decoration: underline;
+    
+ }
+ pre{
+     border-style: double;
+ }

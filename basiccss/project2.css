@@ -1,0 +1,45 @@
+/* body{
+    background: lightcyan;
+    border-style: dashed;
+} */
+body {
+  /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Bebas Neue", sans-serif; */
+    background: pink;
+}
+
+h1 {
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-family: monospace;
+}
+.con{
+   
+    border: 4px solid rgb(62, 124, 155);
+}
+.axyz{
+    border: 4px solid rgb(225, 241, 7);
+}
+.xyz{
+   border: 5px solid rgb(62, 124, 155);
+   font-weight:600;
+}
+.abc{
+    border: 5px solid rgb(225, 18, 132);
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 30px;
+      font-weight: lighter;
+}
+.rrt{
+    border: 5px solid orangered;
+    
+}
+.ok{
+    background: greenyellow;
+}
+.img{
+    border: 3px solid black;
+}
+.aabb{
+    text-align: right;
+    text-align: ;
+}

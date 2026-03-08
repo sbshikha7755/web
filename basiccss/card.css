@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+   /* background: aqua; */
+    /* padding: 5px; */
+    margin: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    
+    
+}
+.cardimg{
+    width: 99%;
+    height: 60%;
+    /* background: orange; */
+    border: 2px solid rgb(219, 219, 214);
+    border-radius: 10px 10px 0px 0px;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+    border-radius:10px 10px 0px 0px
+}
+.cardb{
+    width: 400px;
+    height: 180px;
+    margin-top: 10px;
+    /* background: yellow; */
+}
+.cardp{
+    /* background: orange; */
+ 
+    margin: 2px;
+   
+ }
+.pr{
+    background: greenyellow;
+    
+}
+.pr2{
+    background: gray;
+    margin-left: 20px;
+}
