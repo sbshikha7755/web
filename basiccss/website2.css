@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+     
+    background-color: rgb(233, 220, 167);
+    box-sizing: border-box;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.navbar-wapper{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 100px;
+}
+.navbar-link{
+    gap: 30px;
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+
+    font-size: large;
+}
+.btn{
+   background: rgb(240, 42, 28);
+   
+}
+.navbar-link a {
+  text-decoration: none;
+  color: rgb(245, 230, 212);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+  position: relative;
+}
+.navbar-link a::after {
+  background: white;
+  content: " ";
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  transition: 0.3s;
+  bottom: -5px;
+}
+.navbar-link a:hover::after {
+  width: 100%;
+}
+
+.navbar-link a:hover {
+  color: black;
+}
+/* home */
+.navbar-home{
+  width: 100%;
+  height: 500px;
+  border: 2px solid black;
+  justify-content: center;
+  background-image: url(../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  scroll-margin-top: 90px;
+}
+.navbar-para{
+    color:white ;
+    text-align: center;
+}
+.home-btn{
+  margin-top: 100px;
+  background-color: aquamarine;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.home-btn:hover{
+  margin-top: 100px;
+  /* background-color: rgb(118, 108, 159); */
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  transition: 6s;
+  background-image: linear-gradient(rgb(236, 85, 85), rgb(247, 202, 118));
+}
+/* service */
+
+.service-head{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+   /* background-color: rgb(173, 172, 172); */
+   width: 100%;
+   /* scroll-margin-top: 90px; */
+   padding: 10px;
+   font-size: 50px;
+   text-decoration: underline;
+   transition: 5s;
+   
+  
+   
+   
+   
+}
+.service-box{
+  
+  padding: 10px;
+  scroll-margin-top: 80px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.service-cont-card{
+  margin-top: 20px;
+   width: 240px;
+   height: 300px;
+   border: 2px solid rgb(90, 89, 89);
+   text-align: center;
+   box-shadow:5px 5px 5px 5px;
+   background-color: rgb(240, 238, 238);
+}
+.service-cont-card:hover{
+  margin-top: 20px;
+   width: 240px;
+   height: 300px;
+   border: 2px solid rgb(90, 89, 89);
+   text-align: center;
+   box-shadow:5px 5px 5px 5px;
+   background-image:radial-gradient( rgb(210, 109, 109),rgb(124, 124, 205),rgb(93, 178, 93) );
+
+}
+img{
+  width: 160px;
+  height:130px ;
+  margin-top: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+/* about us */
+.about-box{
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+  background-image: url(../images/wallpaper2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.about-main-box{
+  display: flex;
+  position: relative;
+  width: 100%;
+
+
+}
+.about-cont-card{
+  color: aliceblue;
+  font-size: large;
+  text-align: left;
+width: 50%;
+  
+}
+
+.about-btn{
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+  background-color:rgb(119, 36, 119);
+  border: 2px solid;
+}
+.about-btn:hover{
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+ background-image: linear-gradient(to right,blue,purple);
+  border: 2px solid;
+  
+}
+.about-img{
+margin-top: 20px;
+width: 300px;
+height: 400px;
+ 
+}
+/* blog */
+.blog-box{
+  border: 2px solid black;
+  margin-top: 5px;
+}
+.blog-cont{
+  border: 2px;
+}
+

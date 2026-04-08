@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.crd{
+    width: 200px;
+    height:200px ;
+    border: 2px solid gray;
+    display: inline-block;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: #da1c1c;
+    /* text-shadow: 5px 5px #291cda; */
+    text-shadow: 5px 5px #558abb;
+    border-radius: 100%;
+
+}
+#aa{
+    background-image: conic-gradient(red , yellow , green , pink);
+}
+#bb{
+    background-image: conic-gradient(black, red, white, yellow,blue,orange,pink);
+}
+#cc{
+    background-image: conic-gradient(black 10%, red 20%, white 40%, yellow 30%,blue 70%,orange 50%,pink 90%);
+}
+#dd{
+    background-image: conic-gradient(black 90deg, red 90deg, white 180deg, yellow 45deg);
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    display: inline-flex;              /* important */
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;  
+    align-items: center;       
+    text-align: center;
+    font-weight: 800;
+}
+#ee{
+   text-shadow: 10px 5px #da1c1c; 
+}
+ #ff{
+     text-shadow: -10px 5px #32da1c; 
+ }
+ #hh{
+     text-shadow: 10px -5px #1cc7da; 
+ }
+  #ii{
+     text-shadow: 0px 0px 10px #da481c; 
+ }
+
+ .cad{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    display: inline-block;
+    margin: 20px;
+ }
+
+
+ #jj{
+    box-shadow: 5px 5px;
+ }
+ #kk{
+    box-shadow: 5px 5px 10px;
+ }
+ #ll{
+    box-shadow:5px 5px 5px 10px ;
+ }
+ #mm{
+    box-shadow: 10px 20px red inset, -10px -10px 20px green inset;
+ }

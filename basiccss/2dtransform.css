@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 230, 203);
+}
+img{
+    width: 200px;
+    height: 200px;
+    display:block;
+    gap: 20px;
+   
+}
+#translate{
+    border: 2px solid brown;
+    box-shadow: 5px 10px 5px 10px grey ;
+    transform: translateX(80px);
+    transform: translateY(50px);
+    transform: translate(80px,40px);
+}
+#rotate{
+    transform: rotateX(50deg);
+    transform: rotateY(40deg);
+    transform: rotate(50deg);
+    margin-top: 100px;
+
+}
+#scale{
+    transform: scaleX(2);
+    transform: scaleX(3);
+    transform: scale(2,2);
+    margin-top: 140px;
+}
+#skew{
+    transform: skewX(10deg);
+    transform: skewY(50deg);
+    transform: skew(40deg);
+    margin-top: 100px;
+    
+}
+#matrix{
+    transform: matrix(1,2,2,0,10,20);
+    margin-top: 90px;
+}

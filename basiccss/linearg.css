@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    background-color: blanchedalmond;
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    grid-row: 2px;
+   
+}
+#cds{
+ background-image: linear-gradient(to right,rgb(224, 84, 84), rgb(89, 89, 216));
+  
+}
+#cds1{
+    background-image: linear-gradient( to left, rgb(61, 238, 58),rgb(77, 192, 227));
+}
+#cds2{
+    background-image:linear-gradient(to top,yellow,rgb(137, 137, 196), red) ;
+}
+#cds4{
+    background-image:linear-gradient(to right bottom,rgb(161, 161, 39),rgb(62, 62, 157), red) ;
+}
+#cds5{
+    background-image:linear-gradient(to left bottom,rgb(186, 186, 86),rgb(137, 137, 196), red) ;
+}
+#cds6{
+    background-image:linear-gradient(to right top,rgb(186, 186, 86),rgb(137, 137, 196), red) ;
+}
+#cds7{
+    background-image:linear-gradient(to left top,rgb(186, 186, 86),rgb(137, 137, 196), red) ;
+}
+#cds8{
+    background-image:url(../images/bhu1.jpg) ;
+    background-repeat:round;
+    text-align: center;
+
+    
+}
+.ody{
+        margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.odd{
+       width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    grid-row: 2px;
+}
+#a1{
+    background-image: radial-gradient(rgb(209, 15, 15) , rgb(218, 9, 201) , blue);
+}
+#a2{
+    background-image: radial-gradient(  circle at center in hsl longer hue,
+    red,
+    blue);
+}
+#a3{
+    background-image: radial-gradient( circle, blue ,green ,pink,yellow);
+}
+#a4{
+    background-image: radial-gradient( circle, blue 0%,green 30%,pink 70%,yellow 10%);
+}
+#a5{
+    background-image: radial-gradient(  ellipse ,rgb(222, 33, 33),rgb(34, 33, 33));
+   }

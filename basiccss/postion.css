@@ -1,0 +1,45 @@
+.box {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(#023314, #00ffff, rgb(255, 0, 212), red);
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 18px;
+    position: relative;
+}
+#Span1{
+    position:absolute;
+    top: 0;
+    left:0;
+}
+
+#Span2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#Span3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#Span4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+#Span5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+img{
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    border: 2px solid aqua;
+}

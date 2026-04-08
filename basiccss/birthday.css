@@ -9,6 +9,7 @@ body{
     height: 500px;
     border-radius: 10px;
     background: lightpink;
+    box-shadow: 20px 20px 30px 15px rgb(178, 162, 162);
     
 
 }
