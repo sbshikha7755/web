@@ -189,9 +189,10 @@ width: 50%;
   
 }
 .about-img{
-margin-top: 20px;
-width: 300px;
-height: 400px;
+margin-top: 50px;
+/* width: 200px;
+height: 300px; */
+padding: 50px;
  
 }
 /* blog */
