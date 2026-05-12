@@ -14,29 +14,30 @@
     background-color:cornflowerblue;
     align-items: center;
     justify-content: space-between;
-    padding: 2px;
+    /* padding: 2px; */
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 70px;
     padding: 2px;
 }
 .navbar-link{
-    gap: 100px;
+    gap: 80px;
     margin-right: 200px;
     list-style: none;
     display:flex;
     font-size: 25px;
     font-weight: bolder;
+    padding: 30px;
 }
 .navbar-link a{
     text-decoration:none;
-    color: white;
+    color: rgb(27, 26, 26);
     font-family:sans-serif;
     position: relative;
 }
 .navbar-link a::after{
-    background-color: brown;
+    background-color: rgb(43, 16, 16);
     content: " ";
     width: 0px;
     height: 2px;
@@ -52,19 +53,63 @@
     color: black;
 }
 .btn{
-    background-color: aquamarine;
+    background-color:blue;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    color: antiquewhite;
+    margin-right: 30px;
 }
 
 /* html */
-.navbar-html{
+
+/* topic */
+
+.main-box{
+    background-color: rgb(250, 240, 200);
     width: 100%;
     height: auto;
-    border: 2px solid black;
-    background-image: url(../images/wall9.jpg);
-    background-color: aquamarine;
-    color: aliceblue;
+    border: 2px;
+    display: inline-flex;
+    position: absolute;
+}
+.html{
+    margin-left: 20px;
+    
+}
+.head2{
+   margin-top: 20px;
+    text-decoration: underline;
    
 }
-h1{
-    text-decoration: underline;
+.key{
+    margin-top: 10px;
+}
+ 
+.cont{
+    margin-top: 10px;
+    width: 170px;
+    height: 210px;
+    border: 2px solid rgb(95, 71, 38);
+    border-radius: 10px;
+    background-color: rgb(244, 185, 164);
+    box-shadow: 3px 3px 3px 3px  rgb(227, 146, 159);
+}
+.cont:hover{
+ background-image: linear-gradient(to right, rgb(230, 108, 108), rgb(149, 149, 241), rgb(222, 97, 222));
+ 
+}
+.para1{
+    display: flex;
+    gap: 70px;
+    padding: 10px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+}
+hr{
+    border: 10px solid rgb(233, 121, 121);
 }

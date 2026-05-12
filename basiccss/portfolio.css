@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(119, 172, 174);
+    box-sizing: border-box;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.navnar-wapper{
+    display: flex;
+    background-color: rgb(135, 195, 44);
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(80, 124, 15);
+    /* padding: 5px; */
+    border-radius: 100px;
+    margin-left: 5px;
+}
+.navbar-link{
+    gap: 60px;
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+.navbar-link a{
+    text-decoration: none;
+    color: rgb(3, 24, 42);
+    font-weight: bold;
+    position: relative;
+}
+.navbar-link a::after{
+    background-color: rgb(1, 10, 10);
+    content: " ";
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+    bottom: -5px;
+}
+.navbar-link a:hover::after{
+    width: 100%;
+}
+.navbar-link a:hover{
+    color: black;
+}
+.btn{
+    margin-right: 15px;
+    background-color: rgb(92, 153, 32);
+}
+/* my home */
+.navbar-home{
+   width: 100%;
+   height: auto;
+   border: 2px solid;
+   background-image: url(../images/wall7.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  background-position: center;
+  scroll-margin-top: 90px;
+}
+.navbar-box{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.navbar-para{
+    color:white;
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+    margin-left: 5px;
+    padding: 20px;
+}
+.head{
+   text-decoration:underline solid rgb(148, 217, 43);
+
+}
+.btn2{
+    padding: 7px;
+    margin-top: 50px;
+    margin-left: 40px;
+    gap: 30px;
+    position: relative;
+}
+.about-img{
+    margin-top: 50px;
+    /* padding: 50px; */
+    width: 50px;
+    height: 50px;
+}
+.img2{
+     margin-top: 50px;
+    /* padding: 50px; */
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    box-shadow: 5px 5px 5px 5px rgb(112, 165, 33);
+    border: 3px solid rgb(49, 235, 49);
+    margin-left: 200px;
+}

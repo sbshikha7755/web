@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: antiquewhite;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index:-1;
+    transform-style:preserve-3d ;
+    display: flex;
+    color: rgb(118, 27, 4);
+   
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+   
+  
+}
+#background{
+    transform: translateZ(-40px) scale(5);
+}
+#background2{
+    transform: translateZ(-20px) scale(3);
+
+}
+.container h1{
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-transform: uppercase;
+    font-size: 10rem;
+    font-weight: 700;
+    text-shadow: 0 0 25px rgb(231, 210, 179);
+
+}
+section{
+    background-color: rgb(228, 202, 202);
+    color: rgb(3, 3, 3);
+    padding: 8rem 0px;
+    box-shadow: 20 20 20 20 rgb(161, 63, 63);
+}
+section h2{
+    font-size: 5rem;
+    color: rgb(13, 2, 73);
+    margin-left: 25%;
+    /* padding: 0 18rem ; */
+    
+}
+.text{
+    font-size: 1.2rem;
+    /* padding: 0 15rem; */
+    margin: 5rem 0;
+    margin: 5rem;
+}
+.bg1{
+    background-image: url(../images/kashi2.jpg);
+}
+.bg2{
+    background-image: url(../images/kashi3.jpg);
+}
+.bg3{
+    background-image: url(../images/kashi5.jpg);
+}
+.box{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+      background-attachment: fixed;
+    position: relative;
+}
+.box h4{
+    font-size: 3.5rem;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding:0 20px;
+}

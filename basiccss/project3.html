@@ -12,6 +12,7 @@
         padding: 0;
     }
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                          
     .main {
         display: flex;
         justify-content: center;
@@ -45,13 +46,13 @@
     .left {
         width: 60%;
         margin-top: 30px;
-      
+
     }
 
     .right {
-        width: 40%;    
+        width: 40%;
     }
-  
+
     .line2 {
         border: 1px solid black;
         padding: 8px;
@@ -79,7 +80,7 @@
 
     .contain-right {
         width: 40%;
-        color:rgb(21, 21, 21);
+        color: rgb(21, 21, 21);
     }
 
     .image {
@@ -94,38 +95,96 @@
         display: flex;
 
     }
-    .contain-section2{
+
+    .contain-section2 {
         display: flex;
         gap: 30%;
         align-items: flex-start;
-     
+
     }
-    .contain-left2{
-      flex: 2;
-    }
-    .contain-right2{
+
+    .contain-left2 {
         flex: 2;
     }
-    .head{
+
+    .contain-right2 {
+        flex: 2;
+    }
+
+    .head {
         font-size: 35px;
         font-weight: bolder;
         color: grey;
         margin-top: 20px;
-       
+
     }
-    .head2{
-    
-        font-weight:bolder;
+
+    .head2 {
+
+        font-weight: bolder;
         color: rgb(8, 8, 8);
-       
-        
+
+
     }
-    .footer{
+
+    .footer {
         margin-top: 20px;
-       display: flex; 
-       font-size: larger;
-       justify-content:space-between;
+        display: flex;
+        font-size: larger;
+        justify-content: space-between;
     }
+
+    @media(max-width:768px) {
+        .top-section {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .head {
+            color: brown;
+            font-size: small;
+        }
+
+        .main {
+            flex-direction: column;
+        }
+        .page{
+            width: 400px;
+            padding: 10px;
+        }
+        .left, .right{
+            width: 100%;
+
+        }
+        .contain-section {
+         flex-direction: column;
+
+        }
+       .contain-left, .contain-right {
+
+        width: 100%;
+        background-color: aquamarine;
+        font-size:large;
+     }
+     .image{
+        width: 100%;
+     }
+     .contain-section2{
+        flex-direction: column;
+        gap: 8px;
+     }
+     .contain-left2, .contain-right{
+        flex: 1;
+    }
+     .footer {
+        display: flex;
+        flex: 1;
+        justify-content:center;
+       justify-items: center;
+
+     }
+    
+}
 </style>
 
 <body>
@@ -135,9 +194,10 @@
             <div class=" top-section">
                 <div class="left">
                     <div class="head">
-                       <span class="head2"> PAID TO PLAY </span> <br>
-                         VIDEOGAMES ARE THE <br>
-                        GRIM FUTURE OF WORK</div>
+                        <span class="head2"> PAID TO PLAY </span> <br>
+                        VIDEOGAMES ARE THE <br>
+                        GRIM FUTURE OF WORK
+                    </div>
 
                     <div>st covre </div>
                     <div class="line2"></div>
@@ -147,11 +207,16 @@
                     <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil autem est, eaque ipsa quia
                         quam, saepe dignissimos porro, quisquam pariatur veniam voluptatem temporibus unde maxime rerum
                         quidem asperiores ratione quos vel ipsum! Corrupti, ea doloribus, autem officia tenetur placeat,
-                        aliquid sapiente voluptate ratione at dolorum nihil magni. Necessitatibus, voluptas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus corrupti magni inventore repellendus deserunt soluta placeat minus architecto maxime assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem corporis autem maiores, repellat atque in adipisci laudantium omnis inventore voluptatibus.</sed>
+                        aliquid sapiente voluptate ratione at dolorum nihil magni. Necessitatibus, voluptas Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit. Doloribus corrupti magni inventore repellendus
+                        deserunt soluta placeat minus architecto maxime assumenda. Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Dolorem corporis autem maiores, repellat atque in adipisci
+                        laudantium omnis inventore voluptatibus.</sed>
                     </div>
                 </div>
 
             </div>
+
             <div class="page2">
                 <div class="contain-section">
                     <div class="contain-left">

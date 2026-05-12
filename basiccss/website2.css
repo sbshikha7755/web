@@ -204,3 +204,26 @@ padding: 50px;
   border: 2px;
 }
 
+@media (max-width:768px){
+  .navbar{
+    background-color: rgb(39, 220, 57);
+    box-sizing: border-box;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+  }
+  .navbar-wapper{
+     display: flex;
+    background-color: rgb(214, 205, 22);
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+  }
+  .btn{
+   background: rgb(173, 14, 72);
+   
+}
+
+
+}
+
