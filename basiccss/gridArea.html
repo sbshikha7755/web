@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridArea</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        height: 700px;
+        width: 500px;
+        background-color: rgb(30, 210, 30);
+        display: grid;
+        gap: 10px;
+        grid-template: repeat(3, 1fr)/repeat(4, 1fr);
+    }
+
+    .box {
+        background-color: rgb(220, 20, 160);
+        border: 1px solid black;
+        border-radius: 0 1.5rem;
+    }
+
+    #box1 {
+        grid-area: 1/2;
+        background-color: rgb(255, 191, 0);
+
+    }
+
+    #box5 {
+        /* grid-row-start: 2; */
+        /* grid-row-end: 3; */
+        /* grid-column-start: 3; */
+        /* grid-column-end: 4; */
+        grid-area: 2/2/3/4;
+        background-color: aquamarine;
+    }
+
+    /* gird template area */
+    .container2 {
+        height: 400px;
+        width: 500px;
+        background-color: rgb(132, 192, 72);
+        display: grid;
+        gap: 10px;
+
+        grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+        grid-template-areas: "b1 b2 b2 b3"
+            "b1 b4 b5 b6"
+            "b1 b7 b8 b6";
+    }
+
+    #box11 {
+        grid-area: b1;
+        background-color: rgb(184, 49, 124);
+    }
+
+    #box12 {
+        grid-area: b2;
+        background-color: rgb(12, 57, 112);
+    }
+
+    #box13 {
+        grid-area: b3;
+        background-color: rgb(116, 196, 200);
+    }
+
+    #box14 {
+        grid-area: b4;
+        background-color: rgb(197, 220, 137);
+    }
+
+    #box15 {
+        grid-area: b5;
+        background-color: rgb(64, 160, 23);
+    }
+
+    #box16 {
+        grid-area: b6;
+        background-color: rgb(255, 80, 89);
+    }
+
+    #box17 {
+        grid-area: b7;
+        background-color: rgb(145, 44, 8);
+    }
+
+    #box18 {
+        grid-area: b8;
+        background-color: rgb(138, 80, 255);
+    }
+
+    /* grid auto row */
+    .container3 {
+        height: 700px;
+        width: 500px;
+        background-color: darkcyan;
+
+        display: grid;
+        gap: 10px;
+
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(40px, 1fr);
+    }
+
+    .boxs {
+        background-color: indianred;
+        border: 1px solid black;
+        border-radius: 0 1.5rem;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+        <div class="box" id="box5">box5</div>
+        <div class="box" id="box6">box6</div>
+        <div class="box" id="box7">box7</div>
+        <div class="box" id="box8">box8</div>
+        <div class="box" id="box9">box9</div>
+        <div class="box" id="box10">box10</div>
+
+    </div>
+    <br><br><br><br><br><br>
+
+    <!-- Grid Template Area -->
+    <div class="container2">
+        <div class="boxx" id="box11">box1</div>
+        <div class="boxx" id="box12">box2</div>
+        <div class="boxx" id="box13">box3</div>
+        <div class="boxx" id="box14">box4</div>
+        <div class="boxx" id="box15">box5</div>
+        <div class="boxx" id="box16">box6</div>
+        <div class="boxx" id="box17">box7</div>
+        <div class="boxx" id="box18">box8</div>
+    </div>
+    <br><br><br><br><br><br>
+
+    <!-- grid auto row -->
+    <div class="container3">
+        <div class="boxs" id="box21">boss Shikhu</div>
+        <div class="boxs" id="box22">boss Shikhu</div>
+        <div class="boxs" id="box23">boss Shikhu</div>
+        <div class="boxs" id="box24">boss Shikhu</div>
+        <div class="boxs" id="box25">boss Shikhu</div>
+        <div class="boxs" id="box26">boss Shikhu</div>
+        <div class="boxs" id="box27">boss Shikhu</div>
+        <div class="boxs" id="box28">boss Shikhu</div>
+        <div class="boxs" id="box29">boss Shikhu</div>
+        <div class="boxs" id="box30">boss Shikhu</div>
+        <div class="boxs" id="box31">boss Shikhu</div>
+        <div class="boxs" id="box32">boss Shikhu</div>
+        <div class="boxs" id="box33">boss Shikhu</div>
+        <div class="boxs" id="box34">boss Shikhu</div>
+        <div class="boxs" id="box35">boss Shikhu</div>
+        <div class="boxs" id="box36">boss Shikhu</div>
+        <div class="boxs" id="box37">boss Shikhu</div>
+        <div class="boxs" id="box38">boss Shikhu</div>
+        <div class="boxs" id="box39">boss Shikhu</div>
+        <div class="boxs" id="box40">boss Shikhu</div>
+
+
+    </div>
+
+</body>
+
+</html>
