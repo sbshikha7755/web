@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root</title>
+    <style>
+        :root{
+            --bigcolor:rgb(189, 160, 245);
+            --text-color:rgb(14, 14, 14);
+            --para-size:20px;
+        }
+    *{
+      padding: 0;
+      margin: 0;  
+      box-sizing: border-box;
+    }
+    .cont{
+        /* background-color: aquamarine; */
+        background-color: var(--bigcolor);
+        color: var(--text-color);
+        font-size: var(--para-size);
+    }
+    /* function */
+    :root{
+    --contanierwidth : 100%;
+    --contanierhight:100vh;
+    --bg : rgb(15, 161, 15);
+    }
+    .container{
+        width: var(--contanierwidth);
+        height: var(--contanierhight);
+        padding: 15px;
+        background-color: var(--bg);
+
+    }
+    .boxx{
+        background-color: rgb(240, 68, 68);
+        border: 2px solid rgb(234, 171, 55);
+        margin: 15px 10px;
+        display: inline-block;
+        padding: 21px;
+    }
+    #box1{
+        height: max(100px,4rem);
+    }
+    #box2{
+        width: min(100px,4rem);
+    }
+    #box3{
+        background-color: blueviolet;
+    }
+    /* transition */
+    .contaners{
+        width: 700px;
+        height: 600px;
+        background-color: blue;
+    }
+    .booxx{
+        background-color:palevioletred;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        transition: 5s all ease;
+    }
+    .booxx:hover{
+        background-color: crimson;
+        transform: scale(2) translateX(500px) rotate(360deg);
+    }
+  /* animation */
+    .containerrs{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+    }
+    .bbox{
+        height: 4em;
+        width: 7em;
+        background-color: orangered;
+        border-top: 3px solid rgb(245, 7, 7);
+        border-radius: 0 0 0.2em 0.2em;
+        animation: move 2s linear infinite;
+    }
+    @keyframes move{
+        0%,
+        7%{
+            transform: rotate(0);
+        }
+        15%{
+            transform: rotate(-15deg);
+            border-top-color: red;
+        }
+        25%{
+            transform: rotate(10deg);
+              border-top-color: yellowgreen;
+
+        }
+        35%{
+            transform: rotate(-10deg);
+              border-top-color: green;
+        }
+        45%{
+            transform: rotate(6deg);
+              border-top-color: blue;
+        }
+        55%{
+            transform: rotate(-4deg);
+              border-top-color: white;
+        }
+        55%,
+        100%{
+            transform: rotate(0);
+        }
+
+       
+    }
+
+     .bbox:hover{
+            background-color: red;
+            transition: 0.5s;
+        }
+
+
+</style>
+</head>
+<body>
+    <div class="cont">
+        <h2>Root</h2>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cum aliquam, iure quidem iusto id libero
+                recusandae distinctio voluptate voluptas?</p>
+        </div>
+
+    </div>
+
+    <!-- function -->
+     <div class="container">
+        <h1>box</h1>
+        <div class="boxx" id="box1">box</div>
+        <div class="boxx" id="box2">box</div>
+        <div class="boxx" id="box3">box</div>
+        <div class="boxx" id="box4">box</div>
+        <div class="boxx" id="box5">box</div>
+        <div class="boxx" id="box6">box</div>
+
+     </div>
+
+     <!-- TRANSITIONS -->
+
+     <div class="contaners">
+        <div class="booxx"></div>
+         <div class="booxx"></div>
+    </div>
+
+    <!-- animation -->
+     <div class="containerrs">
+        <div class="bbox"></div>
+
+     </div>
+</body>
+
+</html>

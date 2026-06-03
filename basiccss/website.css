@@ -276,7 +276,7 @@ padding: 0px 70px 0px 80px;
 }
 .team-cont-card{
   width: 250px;
-  height: 300px;
+  height: 350px;
   border: 2px solid rgb(41, 40, 40);
   background-color: #b3efea;
   text-align: center;
@@ -305,9 +305,10 @@ img{
   font-style: italic;
 }
 .team-btn{
-  margin-top: 10px;
+  margin-top: 40px;
   background-color: rgb(124, 124, 164);
   border-radius: 10px;
+
 }
 .team-btn:hover{
   margin-top: 10px;
@@ -334,15 +335,19 @@ img{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+ 
 }
 .contact-cont{
 color: antiquewhite;
  text-align: center;
  margin-top: 10px;
+ 
+
 }
 .contact-head{
   font-size: 40px;
   text-decoration: underline;
+  
 }
 .contact-cont-card{
   margin-top: 40PX;
